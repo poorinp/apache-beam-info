@@ -3,10 +3,10 @@ import java.io.File;
 public class PackageInfo {
 
     String packageName;
-    int ca = 0;
-    int ce = 0;
-    int na = 0;
-    int nc = 0;
+    double ca = 0;
+    double ce = 0;
+    double na = 0;
+    double nc = 0;
 
     public double getInstability() {
         if (ce+ca == 0) return 0;
